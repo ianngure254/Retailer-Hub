@@ -3,6 +3,7 @@ import { Minus, PackagePlus, Plus, Save, Search, Trash2, X } from 'lucide-react'
 import toast from 'react-hot-toast'
 import Button from '../components/common/Button'
 import Loading from '../components/common/Loading'
+import { productAPI } from '../api/product.api'
 import { useCreateProduct, useDeleteProduct, useProducts, useUpdateProduct } from '../Hooks/useProducts'
 import { formatCurrency } from '../utils/formatCurrency'
 
@@ -287,8 +288,8 @@ function AddProductModal({ onClose, onSuccess }) {
     
     // Check SKU uniqueness in real-time (debounced)
     try {
-      const response = await fetch(`http://localhost:3000/api/products?search=${encodeURIComponent(sku)}`)
-      const data = await response.json()
+      const response = await productAPI.getAll({ search: sku })
+      const data = response?.data
       
       if (data.success && data.data?.products?.length > 0) {
         const existingProduct = data.data.products.find(p => p.sku.toUpperCase() === sku.toUpperCase())

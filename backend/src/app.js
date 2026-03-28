@@ -17,6 +17,14 @@ import saleRoutes from './routes/saleRoutes.js';
 //middleware error handler
 import { errorHandler } from './middlewares/error.middleware.js';
 const app = express();
+const getAllowedOrigins = () => [
+  process.env.CLIENT_URI,
+  'http://localhost:5173',
+  'http://localhost:5174',
+]
+  .flatMap((origin) => (origin ? origin.split(',') : []))
+  .map((origin) => origin.trim())
+  .filter(Boolean);
 
 //Security Middlewares
 
@@ -25,10 +33,15 @@ app.use(helmet());
 
 //CORS cross-origin....
 app.use(cors({
-    origin: [
-        'http://localhost:5173',
-  
-    ],
+    origin: (origin, callback) => {
+        const allowedOrigins = getAllowedOrigins();
+
+        if (!origin || allowedOrigins.includes(origin)) {
+            return callback(null, true);
+        }
+
+        return callback(new Error('Not allowed by CORS'));
+    },
     credentials: true,
     optionsSuccessStatus: 200
 }));
@@ -75,6 +88,14 @@ app.use((req, res, next) => {
     }
 
         //Heath check...
+    app.get('/', (req, res) => {
+        res.status(200).json({
+    success: true,
+    message: 'Retailer Hub API is running',
+    health: '/health'
+        });
+    });
+
     app.get('/health', (req, res) => {
         res.status(200).json({
 
