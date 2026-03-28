@@ -46,6 +46,7 @@ app.use(cors({
 
     origin: [
         'https://retailer-frontend-hub.onrender.com,
+        'http://localhost:5173'
   
     ],
 
