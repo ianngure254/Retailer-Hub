@@ -29,7 +29,6 @@ app.use(cors({
         'https://retailer-frontend-hub.onrender.com',
         'http://localhost:5173',
         'http://localhost:3000'
-
   
     ],
     credentials: true,
