@@ -1,0 +1,53 @@
+Product Name,Category,Subcategory,Brand,Spec1_Name,Spec1_Value,Spec2_Name,Spec2_Value,Spec3_Name,Spec3_Value,Price,Stock,SKU,Image_File_Name,Description
+Samsung Galaxy S23,Electronics,Phones,Samsung,Storage,128GB,Color,Black,RAM,8GB,89999,15,SAMSUNG-S23-128-BLK,samsung-s23-128gb-black.jpg,Latest Samsung smartphone with 128GB storage and 8GB RAM
+Samsung Galaxy S23,Electronics,Phones,Samsung,Storage,256GB,Color,Blue,RAM,8GB,99999,8,SAMSUNG-S23-256-BLU,samsung-s23-256gb-blue.jpg,Samsung S23 with 256GB storage in blue color
+Samsung Galaxy S23,Electronics,Phones,Samsung,Storage,512GB,Color,White,RAM,12GB,119999,3,SAMSUNG-S23-512-WHT,samsung-s23-512gb-white.jpg,Premium Samsung S23 with 512GB storage and 12GB RAM
+iPhone 15,Electronics,Phones,Apple,Storage,128GB,Color,Black,RAM,6GB,95000,12,IPHONE15-128-BLK,iphone15-128gb-black.jpg,Apple iPhone 15 with 128GB storage
+iPhone 15,Electronics,Phones,Apple,Storage,256GB,Color,Blue,RAM,6GB,105000,7,IPHONE15-256-BLU,iphone15-256gb-blue.jpg,Apple iPhone 15 with 256GB storage in blue
+Nike T-Shirt,Clothes,Men,Nike,Size,L,Color,Black,Material,Cotton,2999,25,NIKE-TSHIRT-L-BLK,nike-tshirt-large-black.jpg,Comfortable cotton t-shirt for men
+Nike T-Shirt,Clothes,Men,Nike,Size,M,Color,White,Material,Cotton,2999,30,NIKE-TSHIRT-M-WHT,nike-tshirt-medium-white.jpg,Classic white cotton t-shirt
+Nike T-Shirt,Clothes,Men,Nike,Size,XL,Color,Blue,Material,Cotton,3299,15,NIKE-TSHIRT-XL-BLU,nike-tshirt-xl-blue.jpg,Extra large blue Nike t-shirt
+Adidas Shorts,Clothes,Men,Adidas,Size,L,Color,Black,Material,Polyester,2499,20,ADIDAS-SHORTS-L-BLK,adidas-shorts-large-black.jpg,Sporty polyester shorts for men
+Adidas Shorts,Clothes,Men,Adidas,Size,M,Color,Gray,Material,Polyester,2499,25,ADIDAS-SHORTS-M-GRY,adidas-shorts-medium-gray.jpg,Comfortable gray polyester shorts
+Bic Pen,Stationaries,Writing,Bic,Color,Black,Type,Ballpoint,,None,50,500,BIC-PEN-BLK,bic-pen-black.jpg,Standard black ballpoint pen
+Bic Pen,Stationaries,Writing,Bic,Color,Blue,Type,Ballpoint,,None,50,450,BIC-PEN-BLU,bic-pen-blue.jpg,Standard blue ballpoint pen
+Pilot Pen,Stationaries,Writing,Pilot,Color,Black,Type,Gel,,None,120,200,PILOT-PEN-BLK,pilot-pen-black.jpg,Premium gel pen in black
+Pilot Pen,Stationaries,Writing,Pilot,Color,Red,Type,Gel,,None,120,180,PILOT-PEN-RED,pilot-pen-red.jpg,Premium gel pen in red
+A4 Notebook,Stationaries,Office,Local Brand,Size,A4,Type,Ruled,,None,250,100,NOTEBOOK-A4-RULED,notebook-a4-ruled.jpg,Standard A4 ruled notebook
+A5 Notebook,Stationaries,Office,Local Brand,Size,A5,Type,Ruled,,None,180,150,NOTEBOOK-A5-RULED,notebook-a5-ruled.jpg,Compact A5 ruled notebook
+Samsung TV,Electronics,TVs,Samsung,Screen Size,55",Display,LED,Resolution,4K,45000,5,SAMSUNG-TV-55-4K,samsung-tv-55-4k.jpg,55 inch 4K LED TV from Samsung
+Samsung TV,Electronics,TVs,Samsung,Screen Size,43",Display,LED,Resolution,4K,32000,8,SAMSUNG-TV-43-4K,samsung-tv-43-4k.jpg,43 inch 4K LED TV
+Omo Liquid,Detergents,Laundry,Unilever,Size,2L,Type,Liquid,,None,450,30,OMO-LIQ-2L,omo-liquid-2l.jpg,2L liquid laundry detergent
+Omo Powder,Detergents,Laundry,Unilever,Size,2kg,Type,Powder,,None,380,25,OMO-PWD-2KG,omo-powder-2kg.jpg,2kg powder laundry detergent
+Tide Liquid,Detergents,Laundry,P&G,Size,1.5L,Type,Liquid,,None,420,20,TIDE-LIQ-1.5L,tide-liquid-1.5l.jpg,1.5L liquid laundry detergent
+Tide Powder,Detergents,Laundry,P&G,Size,1kg,Type,Powder,,None,220,35,TIDE-PWD-1KG,tide-powder-1kg.jpg,1kg powder laundry detergent
+Sunlight Liquid,Detergents,Dish,Unilever,Size,750ml,Type,Liquid,,None,180,40,SUNLIGHT-LIQ-750ML,sunlight-liquid-750ml.jpg,750ml dishwashing liquid
+Rice,Cereals,Grains,Local Brand,Quantity,5kg,Type,White,,None,2500,100,RICE-5KG-WHT,rice-5kg-white.jpg,5kg premium white rice
+Rice,Cereals,Grains,Local Brand,Quantity,10kg,Type,Brown,,None,4800,50,RICE-10KG-BRN,rice-10kg-brown.jpg,10kg brown rice
+Maize Flour,Cereals,Flours,Local Brand,Quantity,2kg,Type,White,,None,280,80,MAIZE-FLOUR-2KG,maize-flour-2kg.jpg,2kg white maize flour
+Wheat Flour,Cereals,Flours,Local Brand,Quantity,1kg,Type,Whole,,None,180,120,WHEAT-FLOUR-1KG,wheat-flour-1kg.jpg,1kg whole wheat flour
+Millet,Cereals,Grains,Local Brand,Quantity,3kg,Type,Organic,,None,1200,30,MILLET-3KG-ORG,millet-3kg-organic.jpg,3kg organic millet
+Coca-Cola,Drinks,Soft,Coca-Cola,Size,500ml,Flavor,Original,,None,120,200,COKE-500ML,coca-cola-500ml.jpg,500ml original Coca-Cola
+Coca-Cola,Drinks,Soft,Coca-Cola,Size,1L,Flavor,Original,,None,220,150,COKE-1L,coca-cola-1l.jpg,1L original Coca-Cola
+Pepsi,Drinks,Soft,Pepsi,Size,500ml,Flavor,Original,,None,115,180,PEPSI-500ML,pepsi-500ml.jpg,500ml Pepsi
+Minute Maid,Drinks,Juice,Coca-Cola,Size,1L,Flavor,Orange,,None,280,90,MINUTE-MAID-1L-ORG,minute-maid-1l-orange.jpg,1L orange juice
+Aquafina,Drinks,Water,Pepsi,Size,500ml,Type,Mineral,,None,50,300,AQUAFINA-500ML,aquafina-500ml.jpg,500ml mineral water
+Red Bull,Drinks,Energy,Red Bull,Size,250ml,Type,Energy,,None,350,60,RED-BULL-250ML,red-bull-250ml.jpg,250ml energy drink
+Stainless Steel Pot,Utensils,Cooking,Local Brand,Size,5L,Material,Stainless Steel,,None,1899,15,POT-5L-SS,stainless-pot-5l.jpg,5L stainless steel cooking pot
+Non-stick Pan,Utensils,Cooking,Local Brand,Size,28cm,Material,Non-stick,,None,1299,20,PAN-28CM-NS,nonstick-pan-28cm.jpg,28cm non-stick frying pan
+Dinner Plates,Utensils,Dining,Local Brand,Size,10 inch,Material,Ceramic,,None,450,40,PLATES-10IN-CER,dinner-plates-10inch.jpg,Ceramic dinner plates set
+Glass Cups,Utensils,Dining,Local Brand,Size,300ml,Material,Glass,,None,280,60,CUPS-300ML-GLASS,glass-cups-300ml.jpg,300ml glass cups
+Food Container,Plastics,Storage,Local Brand,Size,1L,Material,Plastic,,None,150,100,CONTAINER-1L-PLAST,food-container-1l-plastic.jpg,1L plastic food container
+Water Bottle,Plastics,Household,Local Brand,Size,750ml,Material,HDPE,,None,120,150,BOTTLE-750ML-HDPE,water-bottle-750ml-hdpe.jpg,750ml HDPE water bottle
+Storage Box,Plastics,Storage,Local Brand,Size,10L,Material,Plastic,,None,450,30,BOX-10L-PLAST,storage-box-10l-plastic.jpg,10L plastic storage box
+Plastic Chair,Plastics,Household,Local Brand,Size,Standard,Material,Plastic,,None,899,25,CHAIR-STD-PLAST,plastic-chair-standard.jpg,Standard plastic chair
+Fresh Apples,Food,Fresh,Local Farm,Size,Medium,Type,Apple,,None,80,200,APPLES-MED-FRESH,apples-medium-fresh.jpg,Fresh medium apples
+Bananas,Food,Fresh,Local Farm,Size,Medium,Type,Banana,,None,60,180,BANANAS-MED-FRESH,bananas-medium-fresh.jpg,Fresh medium bananas
+Bread Loaf,Food,Bakery,Local Brand,Size,400g,Type,White,,None,120,50,BREAD-400G-WHT,bread-400g-white.jpg,400g white bread loaf
+Milk,Fresh,Dairy,Local Brand,Size,1L,Type,Fresh,,None,180,40,MILK-1L-FRESH,milk-1l-fresh.jpg,1L fresh milk
+Eggs,Fresh,Dairy,Local Farm,Size,30pcs,Type,Eggs,,None,450,25,EGGS-30PCS-FRESH,eggs-30pcs-fresh.jpg,30 fresh eggs
+Lipstick,Cosmetics,Makeup,MAC,Color,Red,Type,Lipstick,,None,2500,15,LIPSTICK-MAC-RED,lipstick-mac-red.jpg,MAC red lipstick
+Foundation,Cosmetics,Makeup,Maybelline,Color,Nude,Type,Foundation,,None,2200,20,FOUNDATION-MAY-NUDE,foundation-maybelline-nude.jpg,Maybelline nude foundation
+Mascara,Cosmetics,Makeup,L'Oréal,Color,Black,Type,Mascara,,None,1800,25,MASCARA-LOREAL-BLK,mascara-loreal-black.jpg,L'Oréal black mascara
+Moisturizer,Cosmetics,Skincare,Nivea,Size,50ml,Type,Moisturizer,,None,1200,35,MOISTURIZER-NIVEA-50ML,moisturizer-nivea-50ml.jpg,Nivea 50ml moisturizer
+Shampoo,Cosmetics,Hair,Dove,Size,400ml,Type,Shampoo,,None,980,40,SHAMPOO-DOVE-400ML,shampoo-dove-400ml.jpg,Dove 400ml shampoo
