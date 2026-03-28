@@ -26,7 +26,7 @@ app.use(helmet());
 //CORS cross-origin....
 app.use(cors({
     origin: [
-        'http://localhost:5173',
+        'https://retailer-frontend-hub.onrender.com,
   
     ],
     credentials: true,
