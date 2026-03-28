@@ -33,7 +33,7 @@ app.use(helmet());
 
 //CORS cross-origin....
 app.use(cors({
-<<<<<<< HEAD
+
     origin: (origin, callback) => {
         const allowedOrigins = getAllowedOrigins();
 
@@ -43,12 +43,12 @@ app.use(cors({
 
         return callback(new Error('Not allowed by CORS'));
     },
-=======
+
     origin: [
         'https://retailer-frontend-hub.onrender.com,
   
     ],
->>>>>>> b2fb16e6abfb4f4f01b580134906573b6ca92ecd
+
     credentials: true,
     optionsSuccessStatus: 200
 }));
